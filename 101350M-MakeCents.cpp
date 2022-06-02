@@ -14,15 +14,15 @@ int main()
 { _;
 	
 	int t,C,N;cin>>t;
-	double f,fl, value =0;
+	double fi,fl, value =0;
 	string  c, cr;
 	map<string, double> mp;
 	mp["JD"] = 1.000000;
 	while(t>0){
 		cin>>C>>N;
 		for(int i = 0 ; i<C; i++){
-			cin>>c>>f;
-			mp[c] = f;
+			cin>>c>>fi;
+			mp[c] = fi;
 		}
 		for(int j = 0; j<N; j++){
 			cin>>fl>>cr;
